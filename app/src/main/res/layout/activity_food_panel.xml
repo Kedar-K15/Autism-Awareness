@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodPanel"
+    android:background="@drawable/background_aawareness">>
+    <Button
+        android:id="@+id/Aware_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "aaware"
+        android:fontFamily="@font/megrim"
+        android:textSize="30sp"
+        android:gravity= "right"
+        android:textColor="#FFDC00"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        />
+    <Button
+        android:id="@+id/Favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="223dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/megrim"
+        android:gravity="bottom"
+        android:text="Favorites"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Daily_Meal_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="223dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/megrim"
+        android:gravity="bottom"
+        android:text="Daily Meal-Plan"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Dislike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="418dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="223dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/megrim"
+        android:gravity="bottom"
+        android:text="Dislike"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+</RelativeLayout>

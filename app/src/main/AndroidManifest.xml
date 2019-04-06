@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CategoryList"></activity>
+        <activity android:name=".FoodPanel"></activity>
+        <activity android:name=".healthPanel" />
+        <activity android:name=".CategoryList" />
         <activity android:name=".OpeningScreen" />
         <activity android:name=".MainActivity">
             <intent-filter>

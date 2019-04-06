@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".healthPanel"
+    android:background="@drawable/background_aawareness">
+    <Button
+        android:id="@+id/Aware_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "aaware"
+        android:fontFamily="@font/megrim"
+        android:textSize="30sp"
+        android:gravity= "right"
+        android:textColor="#FFDC00"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        />
+
+    <TextView
+        android:id="@+id/Allergies"
+        android:layout_width="match_parent"
+        android:layout_height="617dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="223dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/megrim"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:textColor="#FFDC00"
+        android:text="Blood Type:
+Weight:
+Height:
+Allergies:
+Recent Check-Ups:
+"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+</RelativeLayout>

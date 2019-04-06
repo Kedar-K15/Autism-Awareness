@@ -22,7 +22,13 @@
         android:layout_height="wrap_content"
         android:text="Click me!"
         tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="109dp" />
+        tools:layout_editor_absoluteY="109dp"
+
+        android:onClick="sendMessage"
+
+
+        />
+
 
 
 </android.support.constraint.ConstraintLayout>

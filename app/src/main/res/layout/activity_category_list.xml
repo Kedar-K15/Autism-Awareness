@@ -87,6 +87,20 @@
         android:textAlignment="center"
         />
 
+    <Button
+        android:id="@+id/Log_out"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="695dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/megrim"
+        android:gravity="bottom"
+        android:text="log Out"
+        android:textAlignment="center"
+        android:textSize="20dp" />
 
 
 

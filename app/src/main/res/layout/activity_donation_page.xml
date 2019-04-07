@@ -23,7 +23,7 @@
         />
 
     <TextView
-        android:id="@+id/donations"
+        android:id="@+id/donations1"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_alignParentTop="true"
@@ -41,7 +41,7 @@
         android:textSize="30dp" />
 
     <TextView
-        android:id="@+id/donations"
+        android:id="@+id/donations2"
         android:layout_width="match_parent"
         android:layout_height="631dp"
         android:layout_alignParentTop="true"
@@ -56,6 +56,25 @@
 
         android:text="     Adolescents and especially adults often have difficulty finding services or even understanding, as many people associate autism only with kids or hold a narrow stereotype of how a person with autism behaves. We know how busy parents in the 21 centurey are, and threfore, our mission was to create a simple linear app with functionality to understand the needs of the child from a few clicks. Our goal is to make the program easily accessable for the parents to share to Care-takes and teachers.  "
         android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/donations_image"
+        android:src="@drawable/donation_image"
+        android:layout_width="match_parent"
+        android:layout_height="631dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="223dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/megrim"
+        android:gravity="left"
+        android:textColor="#FFDC00"
+        android:onClick="goToUrl"
+
+        android:text="   "
         android:textStyle="bold" />
 
 

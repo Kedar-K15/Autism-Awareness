@@ -14,6 +14,10 @@ public class EmergencyPage extends AppCompatActivity {
     private EditText name_doctor;
     private EditText num_doctor;
     private Button save;
+    private String str_parent_1 = "";
+    private String str_parent_2 = "";
+    private String str_doc_1 = "";
+    private String str_doc_2 = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +28,10 @@ public class EmergencyPage extends AppCompatActivity {
         num_doctor = (EditText) findViewById(R.id.doctors_number_data);
         home = (Button) findViewById(R.id.aaware_home);
         save = (Button) findViewById(R.id.save_emergency);
+        name_parent.setText(str_parent_1);
+        num_parent.setText(str_parent_2);
+        name_doctor.setText(str_doc_1);
+        num_doctor.setText(str_doc_2);
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,10 +42,10 @@ public class EmergencyPage extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                name_parent.setText(name_parent.getText().toString());
-                num_parent.setText(num_parent.getText().toString());
-                name_doctor.setText(name_doctor.getText().toString());
-                num_doctor.setText(num_doctor.getText().toString());
+                str_parent_1 = name_parent.getText().toString();
+                str_parent_2 = num_parent.getText().toString();
+                str_doc_1 = name_doctor.getText().toString();
+                str_doc_2 = num_doctor.getText().toString();
             }
         });
     }

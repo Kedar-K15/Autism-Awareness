@@ -23,7 +23,7 @@
         />
 
     <TextView
-        android:id="@+id/ParentName"
+        android:id="@+id/parentName"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -44,7 +44,7 @@
 
 
     <EditText
-        android:id="@+id/ParentNameData"
+        android:id="@+id/parentNameData"
         android:layout_width="wrap_content"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -65,7 +65,7 @@
         />
 
     <TextView
-        android:id="@+id/ParentNumber"
+        android:id="@+id/parentNumber"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -85,7 +85,7 @@
 
 
     <EditText
-        android:id="@+id/ParentNumberData"
+        android:id="@+id/parentNumberData"
         android:layout_width="wrap_content"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -106,7 +106,7 @@
         />
 
     <TextView
-        android:id="@+id/DoctorsName"
+        android:id="@+id/doctorsName"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -126,7 +126,7 @@
 
 
     <EditText
-        android:id="@+id/DoctorsNameData"
+        android:id="@+id/doctorsNameData"
         android:layout_width="wrap_content"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -146,7 +146,46 @@
 
         />
 
+    <TextView
+        android:id="@+id/doctorsNumber"
+        android:layout_width="match_parent"
+        android:layout_height="617dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="223dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/megrim"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:textColor="#FFDC00"
+        android:text="Doctor's Name:"
 
+        android:textSize="30dp" />
+
+
+
+    <EditText
+        android:id="@+id/doctorsNumberData"
+        android:layout_width="wrap_content"
+        android:layout_height="617dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="223dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/megrim"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:textColor="#FFDC00"
+
+
+        android:textSize="30dp"
+
+
+        />
 
 
 </RelativeLayout>

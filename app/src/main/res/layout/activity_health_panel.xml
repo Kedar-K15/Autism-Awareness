@@ -133,7 +133,7 @@
         />
 
     <TextView
-        android:id="@+id/doctors_number"
+        android:id="@+id/medical_conditions"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -146,13 +146,13 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-        android:text="Doctor's Number:"
+        android:text="Medical Condtions:"
         android:textSize="30dp" />
 
 
 
     <EditText
-        android:id="@+id/doctors_number_data"
+        android:id="@+id/medical_conditions_data"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"

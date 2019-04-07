@@ -25,7 +25,7 @@ public class OpeningScreen extends AppCompatActivity {
                 x2 = touchevent.getX();
                 y2 = touchevent.getY();
                 if (x1 < x2) {
-                    Intent i = new Intent(OpeningScreen.this, SwipeLeft.class);
+                    Intent i = new Intent(OpeningScreen.this, Login.class);
                     startActivity(i);
                 }
                 break;

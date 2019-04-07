@@ -13,7 +13,6 @@
         <activity android:name=".healthPanel" />
         <activity android:name=".CategoryList" />
         <activity android:name=".Login" />
-        <activity android:name=".MainActivity"/>
         <activity android:name=".OpeningScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

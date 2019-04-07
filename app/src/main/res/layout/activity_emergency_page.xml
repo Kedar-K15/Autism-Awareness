@@ -23,7 +23,7 @@
         />
 
     <TextView
-        android:id="@+id/parentName"
+        android:id="@+id/parent_name"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -41,36 +41,32 @@
         android:textSize="30dp" />
 
 
-
-
     <EditText
-        android:id="@+id/parentNameData"
-        android:layout_width="wrap_content"
-        android:layout_height="617dp"
+        android:id="@+id/parent_name_data"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="66dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/megrim"
         android:gravity="left"
-        android:textStyle="bold"
         android:textColor="#FFDC00"
-
-
         android:textSize="30dp"
+
+        android:textStyle="bold"
 
 
         />
 
     <TextView
-        android:id="@+id/parentNumber"
+        android:id="@+id/parent_number"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="140dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"
@@ -85,12 +81,11 @@
 
 
     <EditText
-        android:id="@+id/parentNumberData"
-        android:layout_width="wrap_content"
-        android:layout_height="617dp"
+        android:id="@+id/parent_number_data"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="170dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"
@@ -106,12 +101,12 @@
         />
 
     <TextView
-        android:id="@+id/doctorsName"
+        android:id="@+id/doctors_Name"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="206dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"
@@ -126,12 +121,11 @@
 
 
     <EditText
-        android:id="@+id/doctorsNameData"
-        android:layout_width="wrap_content"
-        android:layout_height="617dp"
+        android:id="@+id/doctors_name_data"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="235dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"
@@ -147,12 +141,12 @@
         />
 
     <TextView
-        android:id="@+id/doctorsNumber"
+        android:id="@+id/doctors_number"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="194dp"
+        android:layout_marginTop="272dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"
@@ -167,12 +161,12 @@
 
 
     <EditText
-        android:id="@+id/doctorsNumberData"
+        android:id="@+id/doctors_number_data"
         android:layout_width="wrap_content"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="272dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"

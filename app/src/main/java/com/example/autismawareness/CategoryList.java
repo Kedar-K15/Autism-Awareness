@@ -28,7 +28,7 @@ public class CategoryList extends AppCompatActivity {
         food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(CategoryList.this, FoodPanel.class));
+                startActivity(new Intent(CategoryList.this, FoodPage.class));
             }
         });
         health.setOnClickListener(new View.OnClickListener() {

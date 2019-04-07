@@ -10,4 +10,6 @@ public class FoodPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_page);
     }
+
+
 }

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class RegisterPanel extends AppCompatActivity {
     private EditText name;
@@ -26,8 +27,13 @@ public class RegisterPanel extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                User.addUser(new User(name.getText().toString(), username.getText().toString(), password.getText().toString()));
-                startActivity(new Intent(RegisterPanel.this, CategoryList.class));
+                if(!(name.getText().toString().isEmpty() && username.getText().toString().isEmpty() && password.getText().toString().isEmpty())) {
+                    User.addUser(new User(name.getText().toString(), username.getText().toString(), password.getText().toString()));
+                    startActivity(new Intent(RegisterPanel.this, CategoryList.class));
+                }
+                else {
+                    Toast.makeText(RegisterPanel.this, "Please fill in every box", Toast.LENGTH_SHORT).show();
+                }
             }
 
         });

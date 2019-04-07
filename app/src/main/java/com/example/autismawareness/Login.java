@@ -37,8 +37,8 @@ public class Login extends AppCompatActivity {
                     }
                 }
                 if(has_user) {
-                    startActivity(new Intent(Login.this, CategoryList.class));
                     has_user = false;
+                    startActivity(new Intent(Login.this, CategoryList.class));
                 }
                 else {
                     Toast.makeText(Login.this, "Incorrect password and/or username", Toast.LENGTH_SHORT).show();

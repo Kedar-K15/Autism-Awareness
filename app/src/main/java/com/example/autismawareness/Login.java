@@ -31,7 +31,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 for(User x : User.getInformation()) {
-                    if (x.getUsername() == username.getText().toString() && x.getPassword() == password.getText().toString()) {
+                    if (x.getUsername().equals(username.getText().toString()) && x.getPassword().equals(password.getText().toString())) {
                         startActivity(new Intent(Login.this, CategoryList.class));
                         break;
                     } else {

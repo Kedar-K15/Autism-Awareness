@@ -30,27 +30,23 @@ public class Login extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                if(isValid(username.getText().toString(), password.getText().toString())) {
-                    startActivity( new Intent(Login.this, CategoryList.class));
-                }
-                else {
-                    Toast.makeText(Login.this, "Incorrect password and/or username", Toast.LENGTH_SHORT).show();
+                for(User x : User.getInformation()) {
+                    if (x.getUsername() == username.getText().toString() && x.getPassword() == password.getText().toString()) {
+                        startActivity(new Intent(Login.this, CategoryList.class));
+                        break;
+                    } else {
+                        Toast.makeText(Login.this, "Incorrect password and/or username", Toast.LENGTH_SHORT).show();
+                        break;
+                    }
                 }
             }
         });
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                addPerson(username.getText().toString(), password.getText().toString());
+                startActivity(new Intent(Login.this, RegisterPanel.class));
             }
         });
-    }
-    private boolean isValid(String username, String password) {
-        return login_information.containsKey(username) && login_information.get(username) == password;
-    }
-    private void addPerson(String username, String password) {
-        login_information.put(username, password);
     }
 }
 

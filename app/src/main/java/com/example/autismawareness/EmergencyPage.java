@@ -47,6 +47,7 @@ public class EmergencyPage extends AppCompatActivity {
                 str_parent_2 = num_parent.getText().toString();
                 str_doc_1 = name_doctor.getText().toString();
                 str_doc_2 = num_doctor.getText().toString();
+                startActivity(new Intent(EmergencyPage.this, CategoryList.class));
             }
         });
     }

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "125683928442",
+    "firebase_url": "https://aaware-ea542.firebaseio.com",
+    "project_id": "aaware-ea542",
+    "storage_bucket": "aaware-ea542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125683928442:android:01783e53e0976984",
+        "android_client_info": {
+          "package_name": "com.example.autismawareness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125683928442-6nuka77doo656nr4bdf41s1pn90js5tq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.autismawareness",
+            "certificate_hash": "83e6e17286f5e3dcaa6159628f87e539412a7fce"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhy6CnM80alxEX4YkSflDgOxEFsuL6bTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125683928442-sd4flluubpeiu78i482nnohkhjkp4slt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

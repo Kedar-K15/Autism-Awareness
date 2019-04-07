@@ -37,13 +37,12 @@
         android:textStyle="bold"
         android:textColor="#FFDC00"
         android:text="Parent's Name:"
-
         android:textSize="30dp" />
 
 
     <EditText
         android:id="@+id/parent_name_data"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="90dp"
@@ -53,8 +52,7 @@
         android:fontFamily="@font/megrim"
         android:gravity="left"
         android:textColor="#FFDC00"
-        android:textSize="30dp"
-
+        android:textSize="20dp"
         android:textStyle="bold"
 
 
@@ -71,7 +69,6 @@
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/megrim"
-
         android:gravity="left"
         android:text="Parent's Number:"
         android:textColor="#FFDC00"
@@ -82,7 +79,7 @@
 
     <EditText
         android:id="@+id/parent_number_data"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="170dp"
@@ -93,9 +90,7 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-
-
-        android:textSize="30dp"
+        android:textSize="20dp"
 
 
         />
@@ -115,17 +110,16 @@
         android:textStyle="bold"
         android:textColor="#FFDC00"
         android:text="Doctor's Name:"
-
         android:textSize="30dp" />
 
 
 
     <EditText
         android:id="@+id/doctors_name_data"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="235dp"
+        android:layout_marginTop="250dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"
@@ -133,9 +127,7 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-
-
-        android:textSize="30dp"
+        android:textSize="20dp"
 
 
         />
@@ -155,18 +147,16 @@
         android:textStyle="bold"
         android:textColor="#FFDC00"
         android:text="Doctor's Number:"
-
         android:textSize="30dp" />
 
 
 
     <EditText
         android:id="@+id/doctors_number_data"
-        android:layout_width="wrap_content"
-        android:layout_height="617dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="330dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@android:color/transparent"
@@ -174,11 +164,26 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
+        android:textSize="20dp"
 
 
-        android:textSize="30dp"
+        />
 
-
+    <Button
+    android:id="@+id/save"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="269dp"
+    android:layout_marginEnd="33dp"
+    android:layout_marginRight="223dp"
+    android:background="@drawable/roundedbutton"
+    android:fontFamily="@font/megrim"
+    android:gravity="bottom"
+    android:text="Save"
+    android:textSize="30dp"
+    android:textAlignment="center"
         />
 
 

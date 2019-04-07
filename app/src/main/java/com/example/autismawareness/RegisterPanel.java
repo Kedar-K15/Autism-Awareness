@@ -1,5 +1,6 @@
 package com.example.autismawareness;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -26,6 +27,7 @@ public class RegisterPanel extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 User.addUser(new User(name.getText().toString(), username.getText().toString(), password.getText().toString()));
+                startActivity(new Intent(RegisterPanel.this, CategoryList.class));
             }
 
         });

@@ -74,7 +74,6 @@
         android:textColor="#FFDC00"
         android:onClick="goToUrl"
 
-        android:text="   "
         android:textStyle="bold" />
 
 

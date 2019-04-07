@@ -13,9 +13,11 @@ public class HealthPanel extends AppCompatActivity {
     private  EditText blood_type;
     private  EditText weight;
     private  EditText height;
+    private EditText medical;
     private static String str_blood_type;
     private static String str_weight;
     private static String str_height;
+    private static String str_medical;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,11 +26,13 @@ public class HealthPanel extends AppCompatActivity {
         blood_type = (EditText) findViewById(R.id.blood_type_data);
         weight = (EditText) findViewById(R.id.weight_data);
         height = (EditText) findViewById(R.id.height_data);
+        medical = (EditText) findViewById(R.id.medical_conditions_data);
         home = (Button) findViewById(R.id.aaware_home);
         save = (Button) findViewById(R.id.save_emergency);
         blood_type.setText(str_blood_type);
         weight.setText(str_weight);
         height.setText(str_height);
+        medical.setText(str_medical);
 
         home = (Button) findViewById(R.id.aaware_home);
 
@@ -51,6 +55,7 @@ public class HealthPanel extends AppCompatActivity {
                 str_blood_type = blood_type.getText().toString();
                 str_weight = weight.getText().toString();
                 str_height = height.getText().toString();
+                str_medical = medical.getText().toString();
                 startActivity(new Intent(HealthPanel.this, CategoryList.class));
             }
         });

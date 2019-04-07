@@ -14,10 +14,10 @@ public class EmergencyPage extends AppCompatActivity {
     private EditText name_doctor;
     private EditText num_doctor;
     private Button save;
-    private String str_parent_1 = "";
-    private String str_parent_2 = "";
-    private String str_doc_1 = "";
-    private String str_doc_2 = "";
+    private String str_parent_1 = "test";
+    private String str_parent_2 = "test";
+    private String str_doc_1 = "test";
+    private String str_doc_2 = "test";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

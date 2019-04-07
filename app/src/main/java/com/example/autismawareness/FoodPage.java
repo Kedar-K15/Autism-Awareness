@@ -23,10 +23,15 @@ public class FoodPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_page);
         home = (Button) findViewById(R.id.aaware_home);
+        save = (Button) findViewById(R.id.save_emergency);
         daily_meal_plan = (EditText) findViewById(R.id.Daily_Meal_plan_data);
         favorites = (EditText) findViewById(R.id.Favorites_data);
         dislikes = (EditText) findViewById(R.id.Dislike_data2);
-        save = (Button) findViewById(R.id.save_emergency);
+
+        daily_meal_plan.setText(str_daily_meal_plan);
+        favorites.setText(str_favorites);
+        dislikes.setText(str_dislikes);
+
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override

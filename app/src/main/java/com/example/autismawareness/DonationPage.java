@@ -14,6 +14,7 @@ public class DonationPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donation_page);
+
         home = (Button) findViewById(R.id.aaware_home);
 
         home.setOnClickListener(new View.OnClickListener() {

@@ -27,7 +27,7 @@ public class RegisterPanel extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(!(name.getText().toString().isEmpty() && username.getText().toString().isEmpty() && password.getText().toString().isEmpty())) {
+                if(!(name.getText().toString().isEmpty() || username.getText().toString().isEmpty() || password.getText().toString().isEmpty())) {
                     User.addUser(new User(name.getText().toString(), username.getText().toString(), password.getText().toString()));
                     startActivity(new Intent(RegisterPanel.this, CategoryList.class));
                 }

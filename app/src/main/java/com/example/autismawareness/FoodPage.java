@@ -9,7 +9,6 @@ import android.widget.EditText;
 
 public class FoodPage extends AppCompatActivity {
     private Button save;
-    private Button home;
     private EditText daily_meal_plan;
     private EditText favorites;
     private EditText dislikes;
@@ -22,7 +21,6 @@ public class FoodPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_page);
-        home = (Button) findViewById(R.id.aaware_home);
         save = (Button) findViewById(R.id.save_emergency);
         daily_meal_plan = (EditText) findViewById(R.id.Daily_Meal_plan_data);
         favorites = (EditText) findViewById(R.id.Favorites_data);
@@ -32,12 +30,7 @@ public class FoodPage extends AppCompatActivity {
         favorites.setText(str_favorites);
         dislikes.setText(str_dislikes);
 
-        home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(FoodPage.this, CategoryList.class));
-            }
-        });
+
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,3 +45,4 @@ public class FoodPage extends AppCompatActivity {
 
     }
 }
+

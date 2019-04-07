@@ -22,7 +22,6 @@
         android:textStyle="bold"
         android:background="@android:color/transparent"
         />
-
     <Button
         android:id="@+id/food"
         android:layout_width="wrap_content"
@@ -45,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="424dp"
+        android:layout_marginTop="385dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@drawable/roundedbutton"
@@ -61,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="316dp"
+        android:layout_marginTop="278dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@drawable/roundedbutton"
@@ -77,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="213dp"
+        android:layout_marginTop="195dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@drawable/roundedbutton"
@@ -109,7 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="535dp"
+        android:layout_marginTop="488dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@drawable/roundedbutton"

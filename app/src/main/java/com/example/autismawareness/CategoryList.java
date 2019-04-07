@@ -37,6 +37,12 @@ public class CategoryList extends AppCompatActivity {
                 startActivity(new Intent(CategoryList.this, HealthPanel.class));
             }
         });
+        moreInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(CategoryList.this, information.class));
+            }
+        });
         emergency.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,11 +61,7 @@ public class CategoryList extends AppCompatActivity {
                 startActivity(new Intent(CategoryList.this, OpeningScreen.class));
             }
         });
-        moreInfo.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View view) {
-               startActivity(new Intent(CategoryList.this, DonationPage.class));
-           }
-        });
+
+
     }
 }

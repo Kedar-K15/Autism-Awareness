@@ -95,7 +95,7 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-        android:textSize="30dp"
+        android:textSize="20dp"
 
 
         />
@@ -133,7 +133,7 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-        android:textSize="30dp"
+        android:textSize="20dp"
 
 
         />
@@ -172,7 +172,7 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-        android:textSize="30dp"
+        android:textSize="20dp"
         />
     <TextView
         android:id="@+id/Sleeptime_name"
@@ -188,7 +188,7 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-        android:text="Dinner Time:"
+        android:text="Sleep Time:"
         android:textSize="30dp" />
 
 
@@ -207,7 +207,7 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-        android:textSize="30dp"
+        android:textSize="20dp"
         />
     <Button
         android:id="@+id/save_routine"

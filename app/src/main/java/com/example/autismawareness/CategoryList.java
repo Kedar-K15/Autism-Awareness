@@ -12,6 +12,7 @@ public class CategoryList extends AppCompatActivity {
     private Button routine;
     private Button log_out;
     private Button emergency;
+    private Button moreInfo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,7 @@ public class CategoryList extends AppCompatActivity {
         emergency = (Button) findViewById(R.id.emergency);
         routine = (Button) findViewById(R.id.daily_routine);
         log_out = (Button) findViewById(R.id.log_out);
+        moreInfo = (Button) findViewById(R.id.more_info);
 
 
         food.setOnClickListener(new View.OnClickListener() {
@@ -52,6 +54,12 @@ public class CategoryList extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(CategoryList.this, OpeningScreen.class));
             }
+        });
+        moreInfo.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               startActivity(new Intent(CategoryList.this, DonationPage.class));
+           }
         });
     }
 }

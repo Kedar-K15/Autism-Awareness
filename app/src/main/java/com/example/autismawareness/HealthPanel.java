@@ -43,12 +43,6 @@ public class HealthPanel extends AppCompatActivity {
             }
         });
 
-        home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(HealthPanel.this, CategoryList.class));
-            }
-        });
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

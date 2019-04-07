@@ -29,15 +29,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="269dp"
+        android:layout_marginTop="106dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@drawable/roundedbutton"
         android:fontFamily="@font/megrim"
         android:gravity="bottom"
         android:text="Food"
-        android:textSize="30dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/emergency"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="501dp"
+        android:layout_marginTop="424dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@drawable/roundedbutton"
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="379dp"
+        android:layout_marginTop="316dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@drawable/roundedbutton"
@@ -70,22 +70,22 @@
         android:text="Daily Routine"
         android:textAlignment="center"
         android:textSize="30dp" />
+
     <Button
         android:id="@+id/health"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="142dp"
+        android:layout_marginTop="213dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@drawable/roundedbutton"
         android:fontFamily="@font/megrim"
         android:gravity="bottom"
         android:text="health"
-        android:textSize="30dp"
         android:textAlignment="center"
-        />
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/log_out"
@@ -104,21 +104,20 @@
         android:textSize="30dp" />
 
     <Button
-        android:id="@+id/Personal"
+        android:id="@+id/more_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="142dp"
+        android:layout_marginTop="535dp"
         android:layout_marginEnd="33dp"
         android:layout_marginRight="223dp"
         android:background="@drawable/roundedbutton"
         android:fontFamily="@font/megrim"
         android:gravity="bottom"
-        android:text="health"
-        android:textSize="30dp"
+        android:text="More Info"
         android:textAlignment="center"
-        />
+        android:textSize="30dp" />
 
 
 

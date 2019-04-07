@@ -1,27 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Login">
-    <EditText
-        android:id="@+id/edit_title"
-        android:hint="Title"
-        android:inputType="text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/edit_content"
-        android:hint="Content"
-        android:inputType="textMultiLine"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    tools:context=".Login"
+    android:background="@drawable/background_aawareness">
     <Button
-        android:id="@+id/btn_post"
-        android:text="POST"
+        android:id="@+id/Aware_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "aaware"
+        android:fontFamily="@font/megrim"
+        android:textSize="30sp"
+        android:gravity= "right"
+        android:textColor="#FFDC00"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        />
+
+
+
+    <Button
+        android:id="@+id/Register"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="487dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="323dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/megrim"
+        android:gravity="bottom"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="487dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="323dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/megrim"
+        android:gravity="bottom"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="283dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:textColorHint="#FFDC00"
+        android:fontFamily="@font/megrim"
+        android:layout_marginLeft="60dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="283dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:textColorHint="#FFDC00"
+        android:fontFamily="@font/megrim"
+        android:layout_marginLeft="60dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="30sp"
+        />
+</RelativeLayout>

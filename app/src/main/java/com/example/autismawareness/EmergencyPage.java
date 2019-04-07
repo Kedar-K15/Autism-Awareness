@@ -14,10 +14,10 @@ public class EmergencyPage extends AppCompatActivity {
     private EditText name_doctor;
     private EditText num_doctor;
     private Button save;
-    private String str_parent_1 = "test";
-    private String str_parent_2 = "test";
-    private String str_doc_1 = "test";
-    private String str_doc_2 = "test";
+    private static String str_parent_1;
+    private static String str_parent_2 ;
+    private static String str_doc_1;
+    private static String str_doc_2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +28,7 @@ public class EmergencyPage extends AppCompatActivity {
         num_doctor = (EditText) findViewById(R.id.doctors_number_data);
         home = (Button) findViewById(R.id.aaware_home);
         save = (Button) findViewById(R.id.save_emergency);
+
         name_parent.setText(str_parent_1);
         num_parent.setText(str_parent_2);
         name_doctor.setText(str_doc_1);

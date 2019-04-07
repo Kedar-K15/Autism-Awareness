@@ -13,6 +13,7 @@ import java.util.HashMap;
 
 public class Login extends AppCompatActivity {
     private Button login;
+    private Button register;
     private HashMap<String, String> login_information;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +23,26 @@ public class Login extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
             }
         });
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+    }
+    private boolean isValid(String username, String password) {
+        if(login_information.containsKey(username)) {
+            if(login_information.get(username) == password) {
+                return true;
+            }
         }
+        return false;
+    }
+    private void addPerson(String username, String password) {
+        login_information.put(username, password);
     }
 }
+

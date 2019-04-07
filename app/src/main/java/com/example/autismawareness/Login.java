@@ -17,6 +17,7 @@ public class Login extends AppCompatActivity {
     private EditText username;
     private EditText password;
     private HashMap<String, String> login_information = new HashMap<>();
+    private boolean has_user = false;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,18 +27,18 @@ public class Login extends AppCompatActivity {
         register = (Button) findViewById(R.id.register);
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
-
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 for(User x : User.getInformation()) {
                     if (x.getUsername().equals(username.getText().toString()) && x.getPassword().equals(password.getText().toString())) {
                         startActivity(new Intent(Login.this, CategoryList.class));
-                        break;
-                    } else {
-                        Toast.makeText(Login.this, "Incorrect password and/or username", Toast.LENGTH_SHORT).show();
+                        has_user = true;
                         break;
                     }
+                }
+                if(!has_user) {
+                    Toast.makeText(Login.this, "Incorrect password and/or username", Toast.LENGTH_SHORT).show();
                 }
             }
         });

@@ -32,12 +32,14 @@ public class Login extends AppCompatActivity {
             public void onClick(View view) {
                 for(User x : User.getInformation()) {
                     if (x.getUsername().equals(username.getText().toString()) && x.getPassword().equals(password.getText().toString())) {
-                        startActivity(new Intent(Login.this, CategoryList.class));
                         has_user = true;
                         break;
                     }
                 }
-                if(!has_user) {
+                if(has_user) {
+                    startActivity(new Intent(Login.this, CategoryList.class));
+                }
+                else {
                     Toast.makeText(Login.this, "Incorrect password and/or username", Toast.LENGTH_SHORT).show();
                 }
             }

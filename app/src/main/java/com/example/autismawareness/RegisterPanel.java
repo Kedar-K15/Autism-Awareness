@@ -22,7 +22,7 @@ public class RegisterPanel extends AppCompatActivity {
         email = (EditText) findViewById(R.id.email_create);
         username = (EditText) findViewById(R.id.username_create);
         password = (EditText) findViewById(R.id.password_create);
-
+        register = (Button) findViewById(R.id.register);
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -24,7 +24,7 @@
 
 
     <Button
-        android:id="@+id/Register"
+        android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -39,7 +39,7 @@
         android:textSize="30dp" />
 
     <Button
-        android:id="@+id/Login"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -63,6 +63,7 @@
         android:layout_marginTop="200dp"
         android:ems="10"
         android:textColorHint="#FFDC00"
+        android:textColor="#FFDC00"
         android:fontFamily="@font/megrim"
         android:layout_marginLeft="60dp"
         android:gravity="center"
@@ -81,6 +82,7 @@
         android:fontFamily="@font/megrim"
         android:layout_marginLeft="60dp"
         android:gravity="center"
+        android:textColor="#FFDC00"
         android:inputType="textPassword"
         android:hint="Password"
         android:textSize="30sp"

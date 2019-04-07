@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 
 public class CategoryList extends AppCompatActivity {
-    private Button home;
     private Button health;
     private Button food;
     private Button routine;
@@ -17,29 +16,23 @@ public class CategoryList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_list);
-        home = (Button) findViewById(R.id.aaware_home);
         food = (Button) findViewById(R.id.food);
         health = (Button) findViewById(R.id.health);
         emergency = (Button) findViewById(R.id.emergency);
         routine = (Button) findViewById(R.id.daily_routine);
         log_out = (Button) findViewById(R.id.log_out);
 
-        home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(CategoryList.this, RegisterPanel.class));
-            }
-        });
+
         food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(CategoryList.this, RegisterPanel.class));
+                startActivity(new Intent(CategoryList.this, FoodPanel.class));
             }
         });
         health.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(CategoryList.this, RegisterPanel.class));
+                startActivity(new Intent(CategoryList.this, HealthPanel.class));
             }
         });
         emergency.setOnClickListener(new View.OnClickListener() {
@@ -57,7 +50,7 @@ public class CategoryList extends AppCompatActivity {
         log_out.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(CategoryList.this, RegisterPanel.class));
+                startActivity(new Intent(CategoryList.this, OpeningScreen.class));
             }
         });
     }

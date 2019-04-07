@@ -6,20 +6,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class FoodPanel extends AppCompatActivity {
+public class HealthPanel extends AppCompatActivity {
     private Button home;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_food_panel);
+        setContentView(R.layout.activity_health_panel);
+
         home = (Button) findViewById(R.id.aaware_home);
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(FoodPanel.this, CategoryList.class));
+                startActivity(new Intent(HealthPanel.this, CategoryList.class));
             }
         });
-
     }
 }

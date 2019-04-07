@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".FoodPanel" />
-        <activity android:name=".healthPanel" />
+        <activity android:name=".HealthPanel" />
         <activity android:name=".CategoryList" />
+        <activity android:name=".EmergencyPage" />
         <activity android:name=".Login" />
+        <activity android:name=".DailyRoutine" />
         <activity android:name=".RegisterPanel" />
         <activity android:name=".DonationPage" />
         <activity android:name=".OpeningScreen">

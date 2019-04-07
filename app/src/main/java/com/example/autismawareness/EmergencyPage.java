@@ -25,7 +25,7 @@ public class EmergencyPage extends AppCompatActivity {
         name_doctor = (EditText) findViewById(R.id.doctors_name_data);
         num_doctor = (EditText) findViewById(R.id.doctors_number_data);
         home = (Button) findViewById(R.id.aaware_home);
-
+        save = (Button) findViewById(R.id.save_emergency);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EmergencyPage"></activity>
         <activity android:name=".FoodPanel" />
         <activity android:name=".healthPanel" />
         <activity android:name=".CategoryList" />

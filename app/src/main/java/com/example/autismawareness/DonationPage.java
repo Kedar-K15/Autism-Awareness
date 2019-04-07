@@ -3,11 +3,11 @@ package com.example.autismawareness;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class registerpanel extends AppCompatActivity {
+public class DonationPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registerpanel);
+        setContentView(R.layout.activity_donation_page);
     }
 }

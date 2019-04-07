@@ -33,12 +33,31 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-        android:text="Blood Type:
-Weight:
-Height:
-Allergies:
-Recent Check-Ups:
-"
-        android:textAlignment="center"
+        android:text="Blood Type"
+
         android:textSize="30dp" />
+
+
+
+    <EditText
+        android:id="@+id/BloodTypeData"
+        android:layout_width="wrap_content"
+        android:layout_height="617dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="223dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/megrim"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:textColor="#FFDC00"
+        android:text="Blood Type"
+
+        android:textSize="30dp"
+
+
+        />
+
 </RelativeLayout>

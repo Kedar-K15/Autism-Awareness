@@ -10,7 +10,7 @@
     >
 
 
-    <Button
+    <TextView
         android:id="@+id/aaware_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -102,6 +102,23 @@
         android:text="log Out"
         android:textAlignment="center"
         android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Personal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="223dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/megrim"
+        android:gravity="bottom"
+        android:text="health"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        />
 
 
 

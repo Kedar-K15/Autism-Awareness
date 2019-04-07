@@ -38,13 +38,13 @@ public class CategoryList extends AppCompatActivity {
         emergency.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(CategoryList.this, RegisterPanel.class));
+                startActivity(new Intent(CategoryList.this, EmergencyPage.class));
             }
         });
         routine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(CategoryList.this, RegisterPanel.class));
+                startActivity(new Intent(CategoryList.this, DailyRoutine.class));
             }
         });
         log_out.setOnClickListener(new View.OnClickListener() {

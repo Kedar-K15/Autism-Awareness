@@ -11,7 +11,7 @@
 
 
     <Button
-        android:id="@+id/Aware_home"
+        android:id="@+id/aaware_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text= "aaware"
@@ -24,7 +24,7 @@
         />
 
     <Button
-        android:id="@+id/Food"
+        android:id="@+id/food"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -40,7 +40,7 @@
         android:textAlignment="center"/>
 
     <Button
-        android:id="@+id/Emergency"
+        android:id="@+id/emergency"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -56,7 +56,7 @@
         android:textSize="30dp" />
 
     <Button
-        android:id="@+id/Daily_Routine"
+        android:id="@+id/daily_routine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -71,7 +71,7 @@
         android:textAlignment="center"
         android:textSize="30dp" />
     <Button
-        android:id="@+id/Health"
+        android:id="@+id/health"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -88,7 +88,7 @@
         />
 
     <Button
-        android:id="@+id/Log_out"
+        android:id="@+id/log_out"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

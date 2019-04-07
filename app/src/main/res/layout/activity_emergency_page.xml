@@ -65,7 +65,7 @@
         />
 
     <TextView
-        android:id="@+id/Doctor_Name"
+        android:id="@+id/ParentNumber"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -77,7 +77,7 @@
         android:fontFamily="@font/megrim"
 
         android:gravity="left"
-        android:text="Doctor's Name:"
+        android:text="Parent's Number:"
         android:textColor="#FFDC00"
         android:textSize="30dp"
         android:textStyle="bold" />
@@ -85,7 +85,7 @@
 
 
     <EditText
-        android:id="@+id/DoctorNameData"
+        android:id="@+id/ParentNumberData"
         android:layout_width="wrap_content"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -106,7 +106,7 @@
         />
 
     <TextView
-        android:id="@+id/DoctorsNumber"
+        android:id="@+id/DoctorsName"
         android:layout_width="match_parent"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
@@ -119,14 +119,14 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="#FFDC00"
-        android:text="Doctor's Number:"
+        android:text="Doctor's Name:"
 
         android:textSize="30dp" />
 
 
 
     <EditText
-        android:id="@+id/DoctorsNumberData"
+        android:id="@+id/DoctorsNameData"
         android:layout_width="wrap_content"
         android:layout_height="617dp"
         android:layout_alignParentTop="true"
